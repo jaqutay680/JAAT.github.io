@@ -16,4 +16,4 @@ Web4U es una guía interactiva que enseña los fundamentos de HTML, CSS y SVG. O
 - `pdf/`: Archivos PDF para cada sección.
 
 ### Instalación
-   git clone https://github.com/jaqutay680/Web4U.git
+https://jaqutay680.github.io/JAAT.github.io/
