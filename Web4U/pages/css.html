@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Extended documentation on CSS: Cascading Style Sheets, including advanced techniques and best practices.">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Web4U - CSS</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" title="Go back to the homepage">
+            <img src="../images/home_icon.png" alt="Home icon" class="icono-casita">
+        </a>
+        <h1>CSS: Cascading Style Sheets</h1>
+    </header>
+
+    <nav class="horizontal-nav">
+        <a href="html.html">HTML</a>
+        <a href="css.html" class="active">CSS</a>
+        <a href="svg.html">SVG</a>
+    </nav>
+
+    <div class="contenido-principal">
+        
+        <div class="descripcion-centrada">
+            <h2>What is CSS?</h2>
+            <p>CSS (Cascading Style Sheets) is a language used to describe the visual presentation of an HTML or XML document. It allows controlling the style of various elements on a webpage, including colors, fonts, margins, and the layout of elements. With CSS, you can make webpages more visually appealing and user-friendly, adapting to different screen sizes and devices.</p>
+        </div>
+
+        <h3>History of CSS</h3>
+        <p>Proposed by the W3C in 1996, CSS was designed to separate content structure from visual presentation. Since its first version, CSS has significantly evolved. CSS3, the most recent version, includes advanced properties such as flexible design (Flexbox), animations, transitions, and modules to enhance interactivity and the visual presentation of webpages.</p>
+
+        <h3>Main Features of CSS</h3>
+        <ul>
+            <li><strong>Element selection:</strong> CSS allows selecting any HTML element and applying styles directly, offering great flexibility in customizing the appearance of the page.</li>
+            <li><strong>Cascading styles:</strong> CSS styles are applied in a hierarchical order, allowing specific styles to override others using more specific properties.</li>
+            <li><strong>Responsive design:</strong> With CSS, you can create designs that adapt to different screen sizes, ensuring a great user experience on mobile devices, tablets, and PCs.</li>
+        </ul>
+
+        <h3>Advanced Techniques in CSS</h3>
+        <ul>
+            <li><strong>Flexbox:</strong> A CSS module that allows organizing elements on a webpage flexibly. Ideal for creating complex user interfaces such as sidebars, headers, and responsive menus.</li>
+            <li><strong>Grid Layout:</strong> Introduced in CSS3, Grid Layout facilitates the design of complex and flexible grids, allowing developers to create intricate layouts with ease.</li>
+            <li><strong>Animations and Transitions:</strong> CSS allows adding animations to elements using properties like `@keyframes` and `transition`. These techniques improve user experience by providing smooth and engaging interactions.</li>
+            <li><strong>CSS Variables:</strong> A powerful tool for global customization of styles on a webpage. They allow defining reusable variables that make design updates and maintenance easier.</li>
+        </ul>
+
+        <h3>Advanced CSS Code Example</h3>
+        <pre><code>/* Flexbox Example */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+/* Grid Layout Example */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}</code></pre>
+
+        <h3>Additional Useful Links</h3>
+        <ul>
+            <li><a href="https://www.w3.org/TR/css3-roadmap/" target="_blank">CSS3 Specification - W3C</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets" target="_blank">CSS on Wikipedia</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS Documentation - MDN Web Docs</a></li>
+        </ul>
+        <button id="printBtn" class="btn btn-primary">Download PDF</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Web4U. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+    
+</body>
+</html>
